@@ -1,12 +1,9 @@
 import { StrictMode } from "react";
 import { RenderNavBarComponent } from "./components/NavBar/NavBar";
 
-function App() {
-  return (
+export const App = () => (
     <StrictMode>
-      <RenderNavBarComponent />
+      <RenderNavBarComponent>Dsfdfsdds</RenderNavBarComponent>
     </StrictMode>
-  );
-}
+  )
 
-export default App;
